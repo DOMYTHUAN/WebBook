@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="icon" type="image/png" href="https://rbooks.vn/public/imgs/logo/icon-rb.png" sizes="32x32">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+    <!-- Bootstrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <link rel="stylesheet" href="/src/css/home.css">
+
+
+</head>
+
+<body>
+    <header class="header d-flex align-items-center border-bottom" style="height: 110px;">
+        <div class="container pe-0 ps-0 ">
+            <div class="header-main d-flex justify-content-between align-items-center">
+                <a class="header-logo " href="home.html">
+                    <img class="img-fluid" src="/src/images/logo_blue.png" alt="R books Logo" title="RBooks.VN">
+                    <h1 class="visually-hidden">Rbooks</h1>
+                </a>
+
+                <div class="header-search" style="width: 440px;">
+                    <form action="https://www.rbooks.vn/search">
+                        <div class="input-group ">
+                            <input class="form-control rounded-start-pill" type="text"
+                                placeholder="Nhập ISBN, tiêu đề hoặc tác giả" name="keyword">
+                            <button class="btn btn-light rounded-end-pill border" type="submit" style="width: 80px;">
+                                <img class="img-fluid pt-1" src="https://rbooks.vn/imgs/icon-search.svg" alt="">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="header-control d-flex justify-content-between align-items-center" style="width: 250px;">
+                    <div class="cart ">
+                        <a href="https://www.rbooks.vn/cart" class="d-flex">
+                            <div class="icon position-relative">
+                                <img class="img-fluid" src="/src/images/icon-shopping-cart.svg" alt="">
+                                <span
+                                    class="cart-number position-absolute top-0 start-100 translate-middle badge rounded-pill badge text-bg-warning bg-warning">0</span>
+                            </div>
+                            <div class="text">
+                                Giỏ hàng
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="login">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalLogin" class="d-flex">
+                            <div class="icon">
+                                <img class="img-fluid" src="/src/images/icon-log-in.svg" alt="">
+                            </div>
+                            <div class="text">
+                                Đăng nhập
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="bg">
+        <div class=" p-4 ">
+            <div class="container bg-white p-4 rounded-2">
+                <div class="row">
+                    <div class="col-4 ">
+                        <div>
+                            <div class="imgPro border p-3 text-center mb-3">
+                                <img src="/src/images/products/1653121129457Blockchain.png" alt="" height="352.28">
+                            </div>
+                            <div class="d-flex imgDetail">
+                                <div class="border rounded-4 p-2 text-center me-3" style="width: 120px;">
+                                    <a href="">
+                                        <img src="/src/images/img_detail/15928174366291569293110589giai-ma-nghiên.jpg"
+                                            alt="" width="100px" height="110px">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="title-detail mt-3 mb-4 ">BLOCKCHAIN – CƠ HỘI HAY BONG BÓNG – CHIẾN LƯỢC ICO THÀNH
+                            CÔNG
+                        </div>
+                        <hr>
+                        <div class="author mt-4 mb-4 fs-5">
+                            <span>tác giả</span>
+                        </div>
+                        <div class="fs-5 fw-bold mb-4">
+                            <p class="mt-3">
+                                <span class="price">375,000 đ</span>
+                                <span class="old-price">469,000 đ</span>
+                            </p>
+                        </div>
+                        <div class="description" style="font-size:large ;">
+                            <span>
+                                Ai rồi cũng đi qua những tháng ngày như thế, một mình với nỗi cô đơn của người lớn. Đó
+                                là
+                                khi dù là trong căn phòng tĩnh lặng hay nơi phố xá đông đúc, chợt cảm thấy bản thân
+                                chẳng
+                                biết nên đi đâu hay gặp ai...
+                            </span>
+                        </div>
+                        <div class="fs-5 mt-4 d-flex align-items-center ">
+                            <span class="me-3">Số lượng</span>
+                            <div class="input-group" style="max-width: 150px;">
+                                <button class="btn btn-outline-secondary" type="button" id="button-minus">-</button>
+                                <input type="number" class="form-control text-center" value="1" min="1" max="100"
+                                    id="quantity-input">
+                                <button class="btn btn-outline-secondary" type="button" id="button-plus">+</button>
+                            </div>
+                        </div>
+                        <button
+                            class="mt-5 btn btn-outline-primary d-flex align-items-center justify-content-center px-4 py-2 fw-bold"
+                            style="border-radius: 50px; transition: background-color 0.3s ease;">
+                            <i class="fas fa-shopping-cart me-2"></i> Thêm vào giỏ hàng
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-2">
+            <div id="specification-table" class="container bg-white p-4 rounded-2 justify-content-center d-flex mb-3">
+                <!-- <table class="table table-striped mt-4 border p-3 border-top-0"
+                    style="border-collapse: separate; border-spacing: 0 10px; max-width: 500px;">
+                    <thead class="table-primary">
+                        <tr>
+                            <th colspan="2" class="text-center text-uppercase" style="font-size: 18px; padding: 12px;">
+                                Thông
+                                số kỹ thuật</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background-color: #f9f9f9;">
+                            <th scope="row" class="text-start" style="padding: 15px; font-weight: 600; color: #4a4a4a;">
+                                Kích
+                                thước</th>
+                            <td class="text-start" style="padding: 15px; color: #707070;">14 x 20.5 cm</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start" style="padding: 15px; font-weight: 600; color: #4a4a4a;">
+                                Số
+                                trang</th>
+                            <td class="text-start" style="padding: 15px; color: #707070;">228</td>
+                        </tr>
+                        <tr style="background-color: #f9f9f9;">
+                            <th scope="row" class="text-start" style="padding: 15px; font-weight: 600; color: #4a4a4a;">
+                                Loại
+                                bìa</th>
+                            <td class="text-start" style="padding: 15px; color: #707070;">Bìa cứng</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start" style="padding: 15px; font-weight: 600; color: #4a4a4a;">
+                                Năm
+                                xuất bản</th>
+                            <td class="text-start" style="padding: 15px; color: #707070;">2021</td>
+                        </tr>
+                        <tr style="background-color: #f9f9f9;">
+                            <th scope="row" class="text-start" style="padding: 15px; font-weight: 600; color: #4a4a4a;">
+                                Nhà
+                                phân phối</th>
+                            <td class="text-start" style="padding: 15px; color: #707070;">RBOOKS</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start" style="padding: 15px; font-weight: 600; color: #4a4a4a;">
+                                Nhà
+                                xuất bản</th>
+                            <td class="text-start" style="padding: 15px; color: #707070;">NXB Văn Học</td>
+                        </tr>
+                    </tbody>
+                </table> -->
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="pt-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 text-center text-lg-start">
+                    <a href="/" class="d-flex justify-content-center justify-content-lg-start align-items-center mb-3">
+                        <img class="" src="/src/images/logo-w.png" alt="" style="max-width: 280px; color: azure;" />
+                    </a>
+                    <p class="text-white mb-4">
+                        Được tin cậy tại ở Việt Nam và 1.5 triệu khách hàng. Bạn có thắc mắc gì không?
+                    </p>
+                    <a href="/contact" class="btn btn-primary">Liên hệ ngay</a>
+                </div>
+
+                <div class="col-lg-2 mb-4">
+                    <h5 class="text-white mb-3">Điều hướng</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a href="/" class="text-white text-decoration-none">Trang chủ</a></li>
+                        <li class="mb-3"><a href="/about" class="text-white text-decoration-none">Về chúng tôi</a></li>
+                        <li class="mb-3"><a href="javascript:;" class="text-white text-decoration-none">Tin tức</a></li>
+                        <li><a href="/contact" class="text-white text-decoration-none">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 mb-4">
+                    <h5 class="text-white mb-3">Sản phẩm</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a href="javascript:;" class="text-white text-decoration-none">Quần áo</a></li>
+                        <li class="mb-3"><a href="javascript:;" class="text-white text-decoration-none">Giày dép</a>
+                        </li>
+                        <li class="mb-3"><a href="javascript:;" class="text-white text-decoration-none">Giáo dục</a>
+                        </li>
+                        <li><a href="javascript:;" class="text-white text-decoration-none">Đồ chơi</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 mb-4">
+                    <h5 class="text-white mb-3">Liên hệ</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <i class="fas fa-location-dot text-white"></i>
+                            <a href="https://maps.app.goo.gl/EEaXZUfi34CrdJfi8"
+                                class="text-white text-decoration-none">134 Bình Trị Đông, Phường Bình Trị Đông, Quận
+                                Bình Tân, TP.HCM</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-envelope text-white"></i>
+                            <a href="javascript:;"
+                                class="text-white text-decoration-none">duongminhbinh999@gmail.com</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-phone text-white"></i>
+                            <a href="javascript:;" class="text-white text-decoration-none">0385193525</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <h5 class="text-white mb-3">Chính sách</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a href="javascript:;" class="text-white text-decoration-none">Chính sách hoàn
+                                trả</a></li>
+                        <li class="mb-3"><a href="javascript:;" class="text-white text-decoration-none">Thông tin giao
+                                hàng</a></li>
+                        <li class="mb-3"><a href="javascript:;" class="text-white text-decoration-none">Điều khoản</a>
+                        </li>
+                        <li><a href="javascript:;" class="text-white text-decoration-none">Chính sách bảo mật</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+<script src="/src/scripts.js"></script>
+
+</html>

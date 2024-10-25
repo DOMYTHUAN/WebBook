@@ -1,0 +1,262 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "Ám Ảnh Kinh Hoàng (Tái Bản 1)",
+            "image": "/src/images/products/1653117543525Ám-ảnh-kinh-hoàng.png",
+            "price": 190000,
+            "description": "Ám Ảnh Kinh Hoàng (Tái Bản 1) - thuộc dòng truyện trinh thám của nhà văn best-seller Mike Omer nằm trong top sách bán chạy nhất tờ The Washington Post. Cuốn tiểu thuyết này sẽ đưa bạn qua nhiều cung bậc cảm xúc: từ hồi hộp, nghẹt thở đến nhẹ nhõm, bình yên… để rồi phút cuối nhấn chìm bạn trong cảm giác vô vọng. Nó khiến bạn phải tự hỏi rằng, liệu quá khứ có mãi mãi ngủ yên?",
+            "author": "Mike Omer",
+            "specifications": {
+                "size": "15 x 23 cm",
+                "pages": 540,
+                "cover_type": "Bìa cứng",
+                "year_published": 2021,
+                "distributor": "RBOOKS",
+                "publisher": "NXB Lao Động"
+            },
+            "img_detail": {
+                "1": "/src/images/img_detail/1653117543525Ám-ảnh-kinh-hoàng.png",
+                "2": "/src/images/img_detail/16258135225161-40.jpg",
+                "3": "/src/images/img_detail/16258135443681594621682661am-anh-mockup.jpg"
+            },
+            "diff": "hot"
+        },
+        {
+            "id": 2,
+            "title": "BLOCKCHAIN – CƠ HỘI HAY BONG BÓNG – CHIẾN LƯỢC ICO THÀNH CÔNG",
+            "image": "/src/images/products/1653121129457Blockchain.png",
+            "price": 219000,
+            "description": "Cuốn sách sẽ cung cấp phương pháp để giúp các nhà đầu tư lựa chọn các dự án có tiềm năng cao và không bị mắc vào cái bẫy của các dự án lừa đảo.",
+            "author": "RICHARD WATZKE",
+            "specifications": {
+                "size": "14 x 20.5 cm",
+                "pages": 228,
+                "cover_type": "Bìa cứng",
+                "year_published": 2021,
+                "distributor": "RBOOKS",
+                "publisher": "NXB Văn Học"
+            },
+            "img_detail": {
+                "1": "/src/images/products/1653121129457Blockchain.png"
+            },
+            "diff": "special"
+        },
+        {
+            "id": 3,
+            "title": "Chữa Lành Lối Sống - Thay Lối Sống, Đổi Cuộc Đời",
+            "image": "/src/images/products/1653121890040Chữa-lành-lối-sống.png",
+            "price": 139000,
+            "description": "Cuốn sách Chữa Lành Lối Sống - Thay Lối Sống, Đổi Cuộc Đời của tác giả Daisy Smith sẽ giúp bạn bắt tay vào công cuộc thay đổi lối sống cũ, bắt đầu lối sống mới để bạn có thể sống rạng rỡ và hạnh phúc hơn mỗi ngày.",
+            "author": "Daisy Smith",
+            "specifications": {
+                "size": "14 x 20.5 cm",
+                "pages": 272,
+                "cover_type": "Bìa cứng",
+                "year_published": 2021,
+                "distributor": "RBOOKS",
+                "publisher": "NXB Văn Học"
+            },
+            "img_detail": {
+                "1": "/src/images/products/1653121890040Chữa-lành-lối-sống.png"
+            },
+            "diff": "hot"
+        },
+        {
+            "id": 4,
+            "title": "Chết Có Kế Hoạch",
+            "image": "/src/images/products/1653122012479Chêt-có-kế-hoạch.png",
+            "price": 160000,
+            "description": "Giữa cuộc sống vô thường này thì chuyện tương lai ra sao là điều không bao giờ đoán định được, ngoại trừ cái chết là điều chắc chắn sẽ xảy ra. Trong khám phá thú vị về điều chắc chắn, bền vững nhất trong cuộc sống này, “Chết có kế hoạch” đem đến một cái nhìn mới mẻ về tất cả những điều không chắc chắn diễn ra trước hoạt động cuối cùng ấy.",
+            "author": "Laura Pritchett",
+            "specifications": {
+                "size": "15 x 23 cm",
+                "pages": 392,
+                "cover_type": "Bìa cứng",
+                "year_published": 2019,
+                "distributor": "RBOOKS",
+                "publisher": "NXB Văn Học"
+            },
+            "img_detail": {
+                "1": "/src/images/img_detail/1653122018935Chêt-có-kế-hoạch.png",
+                "2": "/src/images/img_detail/15928178745201569487919401chet-nghiêng 26.09.2019.jpg",
+                "3": "/src/images/img_detail/15928178832161575423355774chet2 3.12.2019.jpg"
+            },
+            "diff": "hot"
+        },
+        {
+            "id": 5,
+            "title": "Đam Mê Không Để Làm Cảnh, Đam Mê Là Để Ra Tiền (Tặng Kèm Bookmark)",
+            "image": "/src/images/products/1653122185336đam-mê.png",
+            "price": 179000,
+            "description": "Cách nhanh nhất để tìm kiếm niềm đam mê chính là nỗ lực làm việc, tận dụng tối đa sở trường, kỹ năng để thành công. Trong suốt quá trình va chạm với nhiều người nhiều việc, bạn sẽ hiểu được mình muốn gì, mình khát khao điều gì nhất mà không thể cưỡng lại được, đó chắc chắn là đam mê của bạn. Và khi đã có đam mê, thành công lớn ở ngay trước mắt. Tuổi trẻ! Bạn chọn đam mê hay tiền? Bạn không cần lựa chọn. Chỉ cần có tri thức bạn sẽ có cả 2.",
+            "author": "Emma Casey",
+            "specifications": {
+                "size": "14 x 20.5 cm",
+                "pages": 356,
+                "cover_type": "Bìa cứng",
+                "year_published": 2021,
+                "distributor": "RBOOKS",
+                "publisher": "NXB Văn Học"
+            },
+            "img_detail": {
+                "1": "/src/images/img_detail/1611915881603SP92-Mockup-2.png",
+                "2": "/src/images/img_detail/1611969623996SP92-Mockup-3.png",
+                "3": "/src/images/img_detail/1653122185336đam-mê.png"
+            },
+            "diff": "hot"
+        },
+        {
+            "id": 6,
+            "title": "Đừng Vì Cô Đơn Mà Nắm Vội Một Bàn Tay",
+            "image": "/src/images/products/1653122236249Đừng-vì-cô-dơn.png",
+            "price": 139000,
+            "description": "Ai rồi cũng đi qua những tháng ngày như thế, một mình với nỗi cô đơn của người lớn. Đó là khi dù là trong căn phòng tĩnh lặng hay nơi phố xá đông đúc, chợt cảm thấy bản thân chẳng biết nên đi đâu hay gặp ai...",
+            "author": "Anna Turner",
+            "specifications": {
+                "size": "14 x 20.5 cm",
+                "pages": 264,
+                "cover_type": "Bìa cứng",
+                "year_published": 2021,
+                "distributor": "RBOOKS",
+                "publisher": "NXB Văn Học"
+            },
+            "img_detail": {
+                "1": "/src/images/products/1653122236249Đừng-vì-cô-dơn.png"
+            },
+            "diff": "special"
+        },
+        {
+            "id": 7,
+            "title": "Giải Mã Kinh Tế - Đầu Tư - Gia Đình",
+            "image": "/src/images/products/1653122382851Giải-mã.png",
+            "price": 150000,
+            "description": "Giải Mã là sự kết hợp giữa Peter Pham, chuyên gia tư vấn đầu tư quốc tế với hơn mười lăm năm kinh nghiệm cùng Lê Hoài Ân, dịch giả của nhiều tác phẩm đầu tư và quản lý tài chính cá nhân. “Giải mã” mang đến một cái nhìn mới lạ và sâu sắc về môi trường và sự vận hành của các nền kinh tế mới nổi ở châu Á và Việt Nam cũng như vai trò của nợ đối với tăng trưởng kinh tế của các quốc gia này. Các tác giả đã truyền tải thông điệp đầy cảm hứng rằng hiểu biết một cách hệ thống và toàn diện các vấn đề kinh tế và đầu tư có ý nghĩa quan trọng trong việc ra quyết định đầu tư và kinh doanh của các cá nhân.” - Tiến sĩ Nguyễn Trần Phúc - Trưởng khoa Ngân hàng – Đại học Ngân hàng TP.HCM",
+            "author": "Peter Pham, Lê Hoài Ân",
+            "specifications": {
+                "size": "15 x 23 cm",
+                "pages": 340,
+                "cover_type": "Bìa cứng",
+                "year_published": 2019,
+                "distributor": "RBOOKS",
+                "publisher": "NXB Văn Học"
+            },
+            "img_detail": {
+                "1": "/src/images/img_detail/15928174366291569293110589giai-ma-nghiên.jpg",
+                "2": "/src/images/img_detail/1653122411695Giải-mã.png",
+                "3": "/src/images/img_detail/15928174444721569293119141bìa sau giải mã.jpg"
+            },
+            "diff": "hot"
+        },
+        {
+            "id": 8,
+            "title": "Bộ 2 Cuốn: Bí Quyết Nghỉ Hưu Hạnh Phúc Phóng Khoáng Và Tự Do + 14 Bí Mật Gia Tăng Tài Chính Mỗi Ngày",
+            "image": "/src/images/products/1653123916337combo-bí-quyết-và-14-bí-mật.png",
+            "price": 298000,
+            "description": "“Bí Quyết Nghỉ Hưu Hạnh Phúc, Phóng Khoáng Và Tự Do” của tác giả Ernie J. Zelinski đưa ra một cái nhìn hoàn toàn mới: Nghỉ hưu là sự khởi đầu, không phải kết thúc như nhiều quan niệm trước đây. Nghỉ hưu là khi bạn bắt đầu chương mới của đời mình lập trình lại cuộc sống theo nhịp điệu vận hành của riêng mình. '14 Bí Mật Gia Tăng Tài Chính Mỗi Ngày' của tác giả Camelia Pham là cuốn sách hữu ích dành cho những ai đang gặp khó khăn trong việc quản lý tài chính cá nhân. 14 bí mật lần lượt bật mí qua 3 chủ đề: Lập kế hoạch Thu - Chi hiệu quả; Tối ưu hóa chi phí với lối sống đơn giản; Ứng dụng phần mềm quản lý dòng tiền cá nhân. “7 Bước Thiết Lập Kế Hoạch Cuộc Đời” là cuốn sách giúp bạn phác họa bản đồ cuộc đời thông qua việc định hướng bản thân: Bạn cần biết bản thân là ai? Đang đứng ở đâu? Con đường nào để phát triển?",
+            "author": "Ernie Zelinski, Camelia Pham",
+            "specifications": {
+                "size": "14 x 20.5 cm",
+                "pages": 400,
+                "cover_type": "Bìa cứng",
+                "year_published": 2020,
+                "distributor": "RBOOKS",
+                "publisher": "NXB Văn Học"
+            },
+            "img_detail": {
+                "1": "/src/images/img_detail/1653123914306Bí-quyết-nghỉ-hưu.png",
+                "2": "/src/images/img_detail/165312391307914-bí-mật.png",
+                "3": "/src/images/img_detail/1653123916337combo-bí-quyết-và-14-bí-mật.png"
+            },
+            "diff": "hot"
+        },
+        {
+            "id": 9,
+            "title": "Bộ 2 Cuốn: Dọn Dẹp Tối Giản + 9 Bước Tự Do Tài Chính",
+            "image": "/src/images/products/1653124490953combo-dọn-dẹp-và-9-bước.png",
+            "price": 339000,
+            "description": "'Tối giản' không có nghĩa là bạn phải vứt bỏ hết tất cả mọi đồ đạc, từ bỏ rất nhiều sở thích, hay ép bản thân chi tiêu hà khắc,… Phong cách tối giản được đề cập trong cuốn 'Dọn Dẹp Tối Giản - Phép Màu Mang Bạn Và Người Thân Quay Trở Về' mà Emma Casey hướng đến là sự tự tin, thoải mái, khi bạn hiểu bản thân cần bao nhiêu là đủ. Nhờ vào quá trình làm một căn phòng trở nên ngăn nắp, bạn sẽ có đủ thời gian và không gian để đón nhận niềm hạnh phúc thực sự mà bạn mong muốn. '9 Bước Tự Do Tài Chính' là cuốn sách tạo ra một cuộc cách mạng trong lĩnh vực tài chính cá nhân. Không như những cuốn sách với chủ đề quản lý tiền bạc theo lối truyền thống, cuốn sách này tiếp cận vấn đề tiền bạc từ quan điểm cảm nhận tinh thần. Nhiều năm với vai trò là một nhà hoạch định tài chính, Suze đã học được rằng tự do tài chính không phụ thuộc hoàn toàn vào số tiền mà bạn kiếm được. Tự do tài chính là khi bạn có khả năng vượt qua nỗi sợ hãi và lo lắng.",
+            "author": "Suze Orman, Emma Casey",
+            "specifications": {
+                "size": "14 x 20.5 cm",
+                "pages": 400,
+                "cover_type": "Bìa cứng",
+                "year_published": 2020,
+                "distributor": "RBOOKS",
+                "publisher": "NXB Văn Học"
+            },
+            "img_detail": {
+                "1": "/src/images/img_detail/1653124482889Dọn-dẹp-tối-giản.png",
+                "2": "/src/images/img_detail/16531244779949-bước.png",
+                "3": "/src/images/img_detail/1653124490953combo-dọn-dẹp-và-9-bước.png"
+            },
+            "diff": "hot"
+        },
+        {
+            "id": 10,
+            "title": "Bộ 2 Cuốn: Dọn Dẹp Tối Giản + Sống Có Kế Hoạch",
+            "image": "/src/images/products/1653124639402combo-sống-và-dọn-dẹp.png",
+            "price": 309000,
+            "description": "'Tối giản' không có nghĩa là bạn phải vứt bỏ hết tất cả mọi đồ đạc, từ bỏ rất nhiều sở thích, hay ép bản thân chi tiêu hà khắc,… Phong cách tối giản trong cuốn 'Dọn Dẹp Tối Giản Phép Màu Mang Bạn Và Người Thân Quay Trở Về' mà Emma Casey hướng đến là sự tự tin, thoải mái, khi bạn hiểu bản thân cần bao nhiêu là đủ. 'Sống Có Kế Hoạch' giúp bạn thực hiện cách sử dụng danh sách để có năng suất cao hơn, thành công cao và ít căng thẳng hơn trong cuộc sống bộn bề. Sách đã được dịch sang 12 ngôn ngữ và đã được đăng trên nhiều phương tiện truyền thông bao gồm Fox News , Fox Business, Prevention, Business Insider, Entrepreneur, Brides và được trang O’s chọn đăng trong danh sách  'Self Help Books That Actually Help.'",
+            "author": "Emma Casey, Paula Rizzo",
+            "specifications": {
+                "size": "14.5 x 20.5 cm",
+                "pages": 400,
+                "cover_type": "Bìa cứng",
+                "year_published": 2020,
+                "distributor": "RBOOKS",
+                "publisher": "NXB Văn Học"
+            },
+            "img_detail": {
+                "1": "/src/images/img_detail/1653124632198Sống-có-kế-hoạch.png",
+                "2": "/src/images/img_detail/1653124634657Dọn-dẹp-tối-giản.png",
+                "3": "/src/images/img_detail/1653124639402combo-sống-và-dọn-dẹp.png"
+            },
+            "diff": "special"
+        },
+        {
+            "id": 11,
+            "title": "Bộ 2 Cuốn: Niềm Vui Của Việc Ngừng Lao Động + 7 Bước Thiết Lập Kế Hoạch Cuộc Đời",
+            "image": "/src/images/products/1653124741786combo-niềm-vui-và-7-bước.png",
+            "price": 368000,
+            "description": "Cuốn sách này nói về cách chiến thắng khi bạn ngừng làm việc ở một cách thức không ganh đua nhưng vẫn rất đáng tán dương. Kế hoạch hưu trí sẽ là kim chỉ nam chính xác nhất, đảm bảo bạn không chệch hướng trên con đường chinh phục mục tiêu của bản thân.",
+            "author": "Emma Casey, Ernie Zelinski",
+            "specifications": {
+                "size": "15 x 23 cm",
+                "pages": 400,
+                "cover_type": "Bìa cứng",
+                "year_published": 2020,
+                "distributor": "RBOOKS",
+                "publisher": "NXB Văn Học"
+            },
+            "img_detail": {
+                "1": "/src/images/img_detail/16531247292147-bước.png",
+                "2": "/src/images/img_detail/1653124733593Niềm-vui-của-việc-ngừng-lao-động.png",
+                "3": "/src/images/img_detail/1653124741786combo-niềm-vui-và-7-bước.png"
+            },
+            "diff": "hot"
+        },
+        {
+            "id": 12,
+            "title": "Bộ Sách Tài Chính Gia Đình Kiểu Mỹ (3 Cuốn): Lớp Học Về Tiền + Phụ Nữ Và Tiền Bạc + Những Cuộc Phiêu Lưu Của Billy và Penny",
+            "image": "/src/images/products/1653124785349taichinh.png",
+            "price": 395000,
+            "description": "Giáo dục con trẻ về tiền chưa bao giờ thừa. Cách thức quản lý tiền, tiết kiệm và chi tiêu một cách thông minh chính là những kỹ năng cần thiết dành cho trẻ ngay khi còn nhỏ. Có một sự thật thú vị trên khắp nước Mỹ là: Một gia đình quản lý tài chính tốt là một gia đình nuôi dạy con có cuộc sống tài chính thông minh. Một gia đình có nền tảng tài chính thông minh kiểu Mỹ là một gia đình sở hữu ít nhất một quyển sách Suze Orman trong nhà. Bức tranh tài chính mà bố mẹ vẽ hôm nay chính là bức tranh mà con nhìn ngắm và đón nhận trong tương lai.",
+            "author": "Suze Orman",
+            "specifications": {
+                "size": "14 x 20.5 cm",
+                "pages": 400,
+                "cover_type": "Bìa cứng",
+                "year_published": 2020,
+                "distributor": "RBOOKS",
+                "publisher": "NXB Văn Học"
+            },
+            "img_detail": {
+                "1": "/src/images/img_detail/1653126440171Lớp-học-về-tiền.png",
+                "2": "/src/images/img_detail/1653126441791phụ-nữ-và-tiền-bạc.png",
+                "3": "/src/images/img_detail/16531264525483-billy-+-phụ-nữ-+-lớp-học.png"
+            },
+            "diff": "special"
+        }
+    ]
+}
